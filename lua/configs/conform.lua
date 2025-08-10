@@ -6,14 +6,14 @@ local options = {
     python = { "black" },
     rust = { "rustfmt" },
     javascript = { "prettierd" },
-    go = { "gofmt","gofumt", "goimports", "golines", "golangci-lint" },
+    go = { "gofmt", "gofumt", "goimports", "golines", "golangci-lint" },
   },
 
   format_on_save = {
-  --   -- These options will be passed to conform.format()
-     timeout_ms = 500,
-     lsp_fallback = true,
-   },
+    --   -- These options will be passed to conform.format()
+    timeout_ms = 800,
+    lsp_fallback = true,
+  },
 }
 
 return options
