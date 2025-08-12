@@ -18,8 +18,6 @@ local servers = {
   "golangci_lint_ls",
   "graphql",
   "hls",
-  "html",
-  "htmx",
   "java_language_server",
   "jsonls",
   "kotlin_language_server",
